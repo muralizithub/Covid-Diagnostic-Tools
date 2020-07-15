@@ -7,19 +7,6 @@
 <title>WELCOME TO HOSPITAL MANAGEMENT SYSTEM</title>
 </head>
 <body background ="1.jpg">
-<!-- 
-<center>
-<table width=1000 border=5 >
-<TR BGCOLOR="#99CCCC">
-<TD><h1>HOSPITAL MANAGEMENT SYSTEM</h1>
-</TD>
-</TR>
-<TR >
-<TD>
 
-</td>
-</tr>
-</table>
-</center>   -->
 </body>
 </html>
