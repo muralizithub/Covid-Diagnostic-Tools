@@ -48,9 +48,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-user-md" style="font-size: 20px"></i>&nbsp;Doctor <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="addoc.jsp">Add Doctor</a></li>
-            <li><a href="addoc.jsp">Update Doctor</a></li>
-            <li><a href="addoc.jsp">Delete Doctor</a></li>
+            <li><a href="adddoctor.jsp">Add Doctor</a></li>
+            <li><a href="adddoctor.jsp">Update Doctor</a></li>
+            <li><a href="adddoctor.jsp">Delete Doctor</a></li>
           </ul>
         </li>
       </ul>
