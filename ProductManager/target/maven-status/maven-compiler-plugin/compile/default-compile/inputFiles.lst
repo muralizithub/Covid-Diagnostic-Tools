@@ -1,0 +1,15 @@
+/home/murali/ProductManager/src/main/java/com/covid/model/Symptom.java
+/home/murali/ProductManager/src/main/java/com/covid/controller/DiagController.java
+/home/murali/ProductManager/src/main/java/com/covid/repository/DiagnosisRepository.java
+/home/murali/ProductManager/src/main/java/com/covid/service/DiagnosisService.java
+/home/murali/ProductManager/src/main/java/com/covid/model/DiagnosisModel.java
+/home/murali/ProductManager/src/main/java/com/covid/model/MedicalConditionId.java
+/home/murali/ProductManager/src/main/java/com/covid/model/TreatmentModel.java
+/home/murali/ProductManager/src/main/java/com/covid/App/AppConfig.java
+/home/murali/ProductManager/src/main/java/com/covid/model/SymptomId.java
+/home/murali/ProductManager/src/main/java/com/covid/App/WebAppConfig.java
+/home/murali/ProductManager/src/main/java/com/covid/service/TreatmentManagementService.java
+/home/murali/ProductManager/src/main/java/com/covid/model/MedicalCondition.java
+/home/murali/ProductManager/src/main/java/com/covid/controller/AppController.java
+/home/murali/ProductManager/src/main/java/com/covid/App/AppMain.java
+/home/murali/ProductManager/src/main/java/com/covid/repository/TreatmentManagementRepository.java
