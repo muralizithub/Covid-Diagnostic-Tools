@@ -1,4 +1,5 @@
 <%@ include file="header.jsp" %>
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <!DOCTYPE HTML>
 <html>
 
@@ -15,7 +16,7 @@
 
 <style>
 body {
-	background-image: url("index1.jpg");
+	background-image: url("/images/index1.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -25,12 +26,19 @@ body {
 <body>
 	<div class="container">
 		<form method="post" action="/saveTreatment">
+			
 			<div class="row col-md-6 col-md-offset-3">
-				<div class="panel panel-primary">
+				<div class="panel panel-default">
 					<div class="panel-heading text-center">
 						<h1>Treatment Management</h1>
 					</div>
 					<div class="panel-body">
+						<c:if test="${message != null }">
+							<div class="alert alert-success" role="alert">${ message }</div>
+						</c:if>
+						<c:if test="${erro != null }">
+							<div class="alert alert-danger" role="alert">${ error }</div>
+						</c:if>
 						<div class="form-group">
 							<label for="name">Name:</label> <input type="text" name="pname"
 								class="form-control">

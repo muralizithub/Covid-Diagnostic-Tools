@@ -26,7 +26,7 @@ public class AppController {
 	}
 
 	@RequestMapping(value = "/saveTreatment", method = RequestMethod.POST)
-	public String savedata(@RequestParam(name = "pname") String name, @RequestParam(name = "age") Integer age,
+	public String savedata(Model model,@RequestParam(name = "pname") String name, @RequestParam(name = "age") Integer age,
 			@RequestParam(name = "temp") Double temp, @RequestParam(name = "clinicalFeature") String[] ClinicalFeature,
 			@RequestParam(name = "clinicalSeverity") String ClinicalSeverity,
 			@RequestParam(name = "orotharyngealSwab") String OrotharungealSwab,
@@ -43,7 +43,8 @@ public class AppController {
 		tm.setMedicine(Arrays.toString(Medicine));
 
 		service.save(tm);
-		return "index";
+		model.addAttribute("message","Treatment Successfully Saved.");
+		return "treatment";
 	}
 
 }

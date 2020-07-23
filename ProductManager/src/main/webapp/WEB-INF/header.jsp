@@ -8,6 +8,7 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <link href="/css/fontawesome/fontawesome.min.css" rel="stylesheet">
 <link href="/css/fontawesome/solid.min.css" rel="stylesheet">
+<link href="/css/custom.css" rel="stylesheet">
 <script src="/js/fontawesome/fontawesome.min.js"></script>
 <script src="/js/fontawesome/solid.min.js"></script>
 
@@ -15,7 +16,7 @@
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/common.js"></script>
 </head>
-<body>
+<body onload="onLoad()">
 
 <!-- Header -->
 <div class="row">
@@ -43,13 +44,13 @@
     
     <div class="collapse navbar-collapse" id="doctor-menu">
       <ul class="nav navbar-nav">
-        <li class="active">
+        <li class="mi active">
           <a href="/">
-          <i class="fas fa-user-md" style="font-size: 20px"></i>&nbsp;Predictive Management</a>
+          <i class="fas fa-user-md" style="font-size: 20px"></i>&nbsp;Therapeutic Management</a>
           
         </li>
         
-        <li class="dropdown">
+        <li class="mi dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-diagnoses" style="font-size: 20px"></i>&nbsp;Diagnosis<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -58,12 +59,12 @@
           </ul>
         </li>
         
-        <li>
+        <li class="mi">
           <a href="/treatment">
           <i class="fas fa-sitemap" style="font-size: 20px"></i>&nbsp;Treatment Management</a>
         </li>
         
-        <li class="dropdown">
+        <li class="mi dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-chart-line" style="font-size: 20px"></i>&nbsp;Reports<span class="caret"></span></a>
           <ul class="dropdown-menu">

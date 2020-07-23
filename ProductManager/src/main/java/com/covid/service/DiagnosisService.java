@@ -14,8 +14,8 @@ public class DiagnosisService {
 	@Autowired
 	private DiagnosisRepository repo;
 	
-	public void save(DiagnosisModel data) {
-		repo.save(data);
+	public DiagnosisModel save(DiagnosisModel data) {
+		return repo.save(data);
 	} 
 
 }

@@ -12,6 +12,8 @@ import javax.persistence.Table;
 public class TreatmentModel {
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "trt_id")
     private Integer id;
    	private String name;
     private Integer age;
@@ -28,8 +30,7 @@ public class TreatmentModel {
     
     public TreatmentModel() {}
     
-    @Column(name = "trt_id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    
 	public Integer getId() {
 		return id;
 	}
