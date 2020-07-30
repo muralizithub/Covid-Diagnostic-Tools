@@ -1,9 +1,15 @@
+/home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/model/PatientModel.java
+/home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/repository/PatientRepository.java
 /home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/service/TreatmentManagementService.java
 /home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/controller/DiagController.java
+/home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/controller/PatientController.java
+/home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/service/PatientService.java
 /home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/model/MedicalCondition.java
+/home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/model/ContactDetailsModel.java
 /home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/App/WebAppConfig.java
 /home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/App/AppConfig.java
 /home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/controller/AppController.java
+/home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/model/Address.java
 /home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/repository/DiagnosisRepository.java
 /home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/App/AppMain.java
 /home/murali/hack/Covid-Diagnostic-Tools/ProductManager/src/main/java/com/covid/model/DiagnosisModel.java

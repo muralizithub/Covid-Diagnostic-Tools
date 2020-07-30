@@ -59,6 +59,14 @@
           </ul>
         </li>
         
+         <li class="mi dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user" style="font-size: 20px"></i>&nbsp;Patient<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/patient">Admit Patient</a></li>
+          </ul>
+        </li>   
+        
         <li class="mi">
           <a href="/treatment">
           <i class="fas fa-sitemap" style="font-size: 20px"></i>&nbsp;Treatment Management</a>

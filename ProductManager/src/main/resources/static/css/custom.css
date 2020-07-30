@@ -1,14 +1,22 @@
-.navbar{
+.navbar {
 	margin-bottom: 0px;
 }
 
-.page-header{
+.page-header {
 	padding-bottom: 0px;
-	margin:0px 0px 20px 0px;
+	margin: 0px 0px 20px 0px;
 	border-bottom: 2px solid #aaa
 }
 
-.alert{
+.alert {
 	margin-bottom: 0px;
 	padding: 10px;
+}
+
+.container {
+	margin-left: 20px;
+}
+
+.divider {
+	margin: 0cm 0cm .5cm 0cm;
 }
